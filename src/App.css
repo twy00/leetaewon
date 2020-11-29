@@ -1,3 +1,5 @@
+
+
 .App {
   text-align: center;
 }
@@ -14,14 +16,18 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  /* background-color: #282c34; */
+  /* background-color: whitex; */
+  background: rgb(127,127,127);
+  background: linear-gradient(0deg, rgba(127,127,127,1) 0%, rgba(255,255,255,1) 100%);
+  min-height: 10%;
+  /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
 .App-link {
@@ -35,4 +41,97 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+label {
+  float: center;
+  width: 20%;
+  padding: 10px;
+  background:black;
+  color: white;
+  font-size: medium;
+  /* border: 1px solid grey */
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+/* Style the search field */
+input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  color: black;
+  border: 1px solid black;
+  float: center;
+  width: 50%;
+  background: transparent;
+  margin-top: 40px;
+}
+
+#input {
+  width: 100%;
+}
+
+/* Style the submit button */
+#button {
+  float: center;
+  width: 20%;
+  padding: 10px;
+  background:black;
+  color: white;
+  font-size: 17px;
+  border: 1px solid black;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+#button:hover {
+  background: grey;
+  /* width: 20%; */
+}
+
+#videobox {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10%;
+}
+
+/* table {
+  margin-left: 25%; 
+  margin-right:25%; 
+  width:80%; 
+  table-layout: fixed;
+  word-wrap:break-word;
+} */
+
+ReactPlayer {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+player {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#tablestyle {
+  width: 80%;
+  margin: auto;
+  size: medium;
+  font-size: 50%;
+  table-layout: fixed;
+  word-wrap:break-word;
+  margin-bottom: 50px;
+}
+
+mark {
+  background:skyblue;
+  color: black;
+  font-weight: bold;
+}
+
+#searchresult span{
+  background-color:#FF9;
+  color:#555;
 }
